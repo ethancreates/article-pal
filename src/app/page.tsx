@@ -1,7 +1,13 @@
+import FeaturesSection from "@/components/FeaturesSection";
+import HeroSection from "@/components/HeroSection";
+import LargeNavbar from "@/components/LargeNavbar";
+
 export default function Home() {
   return (
     <main>
-      <h1>Hello World</h1>
+      <LargeNavbar />
+      <HeroSection />
+      <FeaturesSection />
     </main>
   );
 }

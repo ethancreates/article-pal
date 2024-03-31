@@ -4,8 +4,8 @@
 
 @layer base {
   :root {
-    --background: 162 20% 25%;
-    --foreground: 248 14% 84%;
+    --background: 150 20% 25%;
+    --foreground: 100 10% 82%;
 
     --card: 0 0% 100%;
     --card-foreground: 222.2 84% 4.9%;
@@ -74,4 +74,3 @@
     @apply bg-background text-foreground;
   }
 }
-
