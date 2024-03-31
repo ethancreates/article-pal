@@ -1,6 +1,6 @@
 import SignUpButton from "./SignUpButton";
 import { cn } from "@/lib/utils";
-import { raleway } from "@/app/layout";
+import { raleway } from "@/components/Fonts";
 
 const LargeNavbar = () => {
   return (

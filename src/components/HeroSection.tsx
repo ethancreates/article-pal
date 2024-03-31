@@ -1,8 +1,8 @@
-import { raleway } from "@/app/layout";
+import { raleway } from "./Fonts";
 import { cn } from "@/lib/utils";
 import { Button } from "./ui/button";
 import Image from "next/image";
-import articlePalEditorImg from "../../public/articlepal-editor.png"
+import articlePalEditorImg from "../../public/articlePalEditorImg.png"
 
 const HeroSection = () => {
   return (

@@ -1,11 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { cn } from "@/lib/utils";
-import { STIX_Two_Text } from "next/font/google";
-import { Raleway } from "next/font/google";
-
-export const stix = STIX_Two_Text({ subsets: ["latin"] });
-export const raleway = Raleway({ subsets: ["latin"] });
+import { stix } from "@/components/Fonts";
 
 export const metadata: Metadata = {
   title: "Article Pal",
