@@ -1,6 +1,8 @@
 import { raleway } from "@/app/layout";
 import { cn } from "@/lib/utils";
 import { Button } from "./ui/button";
+import Image from "next/image";
+import articlePalEditorImg from "../../public/articlepal-editor.png"
 
 const HeroSection = () => {
   return (
@@ -30,7 +32,7 @@ const HeroSection = () => {
       </div>
       {/* Main Image */}
       <div className="mt-10">
-        <div className="bg-foreground w-[900px] h-[700px] rounded-xl" />
+        <Image src={articlePalEditorImg} width={1000} height={770} alt="A snapshot of what Article Pal's editor looks like."/>
       </div>
       {/* Background Text */}
       <div className="mt-10 text-7xl tracking-tight font-bold text-foreground/50">
