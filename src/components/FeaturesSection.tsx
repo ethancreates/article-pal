@@ -93,8 +93,8 @@ const FeaturesSection = () => {
           {/* Quote */}
           <div className="mb-16 mt-20 flex w-[900px] flex-col items-center space-y-2 text-center text-3xl font-bold tracking-tight text-background/50">
             <h2>
-              "Get it down. Take chances. It may be bad, but it's the only{" "}
-              <br /> way you can do anything really good."
+              &lsquo;Get it down. Take chances. It may be bad, but it&apos;s the only{" "}
+              <br /> way you can do anything really good.&lsquo;
             </h2>
             <h2> - William Faulkner</h2>
           </div>
