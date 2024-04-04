@@ -1,5 +1,6 @@
 import { cn } from "@/lib/utils";
 import { raleway } from "./Fonts";
+import { ContactForm } from "./ContactForm";
 
 const ContactSection = () => {
   return (
@@ -17,6 +18,10 @@ const ContactSection = () => {
         >
           We want to hear from you. Let usk now how we can help.
         </p>
+        {/* Contact Form */}
+        <div>
+          <ContactForm />
+        </div>
       </div>
     </section>
   );
