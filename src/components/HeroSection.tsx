@@ -23,7 +23,7 @@ const HeroSection = () => {
       <div className="mt-5">
         <Button
           className={cn(
-            "bg-foreground text-background rounded-full shadow-2xl px-10 py-7 text-xl",
+            "bg-foreground text-background rounded-full shadow-2xl px-10 py-7 text-xl hover:bg-foreground/70 active:scale-90 transition",
             raleway.className
           )}
         >
