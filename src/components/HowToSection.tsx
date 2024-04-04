@@ -45,14 +45,14 @@ const HowToSection = () => {
         <div className="flex flex-col">
           <div className="flex items-center mt-10">
             <IoIosCheckbox className="text-3xl mr-2" />
-            <p>
+            <p className={raleway.className}>
               Include your SEO keywords or have Article Pal generate them for
               you.
             </p>
           </div>
           <div className="flex items-center mt-5">
             <IoIosCheckbox className="text-3xl mr-2" />
-            <p>
+            <p className={raleway.className}>
               Customize your output with tone and perspective options such as
               &quot;Informative&quot;, &quot;Professional&quot;, and many more.
             </p>
@@ -96,7 +96,7 @@ const HowToSection = () => {
         <div className="flex flex-col">
           <div className="flex items-center mt-10">
             <IoIosCheckbox className="text-3xl mr-2" />
-            <p>
+            <p className={raleway.className}>
               Consider adding facts within the talking points to further improve
               the quality, as well as ensure that all information generated will
               be factual always.
@@ -104,7 +104,7 @@ const HowToSection = () => {
           </div>
           <div className="flex items-center mt-5">
             <IoIosCheckbox className="text-5xl mr-2" />
-            <p>
+            <p className={raleway.className}>
               You can also rely on our built-in outline generator as we have
               fine-tuned it to use Mutually Exclusive, Collectively Exhaustive
               (MECE) Framework. This is to ensure comprehensive coverage of any
