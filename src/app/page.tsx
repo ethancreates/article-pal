@@ -1,6 +1,7 @@
 import ContactSection from "@/components/ContactSection";
 import FAQsSection from "@/components/FAQsSection";
 import FeaturesSection from "@/components/FeaturesSection";
+import Footer from "@/components/Footer";
 import HeroSection from "@/components/HeroSection";
 import HowToSection from "@/components/HowToSection";
 import LargeNavbar from "@/components/LargeNavbar";
@@ -16,6 +17,7 @@ export default function Home() {
       <PricingSection />
       <FAQsSection />
       <ContactSection />
+      <Footer />
     </main>
   );
 }
