@@ -3,12 +3,15 @@ import { cn } from "@/lib/utils";
 import { Button } from "./ui/button";
 import Image from "next/image";
 import APheaderImg from "../../public/articlepal-editor.png";
-import InViewProvider from "./InViewProvider";
+import HeroAnimationProvider from "./HeroAnimationProvider";
 
 const HeroSection = () => {
   return (
-    <InViewProvider>
-      <section className="flex flex-col items-center mt-10">
+    <HeroAnimationProvider>
+      <section
+        className="flex flex-col items-center mt-[150px] scroll-mt-[2000px]"
+        id="home"
+      >
         <div className="flex flex-col items-center text-5xl font-bold tracking-tight leading-tight">
           <h1>Writing valuable and high-quality articles</h1>
           <h1>has never been this easy!</h1>
@@ -47,7 +50,7 @@ const HeroSection = () => {
           <h2>by writers, for writers</h2>
         </div>
       </section>
-    </InViewProvider>
+    </HeroAnimationProvider>
   );
 };
 export default HeroSection;
