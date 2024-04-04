@@ -25,7 +25,14 @@ const Footer = () => {
       {/* footer's footer */}
       <Separator className="w-[800px] my-10 bg-foreground" />
       <p className={(cn("text-foreground/50 "), raleway.className)}>
-        © 2024 ethancreates. All rights reserved.
+        © 2024{" "}
+        <Link
+          href="https://ethancreates.dev"
+          className="hover:text-white hover:underline"
+        >
+          ethancreates.
+        </Link>{" "}
+        All rights reserved.
       </p>
     </section>
   );

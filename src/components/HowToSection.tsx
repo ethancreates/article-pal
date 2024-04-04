@@ -4,7 +4,10 @@ import { IoIosCheckbox } from "react-icons/io";
 
 const HowToSection = () => {
   return (
-    <section className="mt-20 flex flex-col items-center">
+    <section
+      className="mt-20 flex flex-col items-center scroll-mt-[70px]"
+      id="howto"
+    >
       {/* Header */}
       <div>
         <h2 className="text-5xl font-bold tracking-tight">

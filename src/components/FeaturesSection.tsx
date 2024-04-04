@@ -6,7 +6,7 @@ import { IoSearchCircleSharp } from "react-icons/io5";
 
 const FeaturesSection = () => {
   return (
-    <section className="mt-10 bg-foreground text-background">
+    <section className="mt-10 bg-foreground text-background" id="features">
       <div className="flex flex-col items-center pt-20">
         {/* Header */}
         <div className="flex flex-col items-center">
@@ -93,8 +93,8 @@ const FeaturesSection = () => {
           {/* Quote */}
           <div className="mb-16 mt-20 flex w-[900px] flex-col items-center space-y-2 text-center text-3xl font-bold tracking-tight text-background/50">
             <h2>
-              &lsquo;Get it down. Take chances. It may be bad, but it&apos;s the only{" "}
-              <br /> way you can do anything really good.&lsquo;
+              &lsquo;Get it down. Take chances. It may be bad, but it&apos;s the
+              only <br /> way you can do anything really good.&lsquo;
             </h2>
             <h2> - William Faulkner</h2>
           </div>

@@ -4,7 +4,7 @@ import { ContactForm } from "./ContactForm";
 
 const ContactSection = () => {
   return (
-    <section className="bg-foreground text-background h-screen">
+    <section className="bg-foreground text-background h-screen" id="contact">
       {/* Header */}
       <div className="flex flex-col items-center">
         <h2 className="mt-16 text-5xl font-bold tracking-tight">

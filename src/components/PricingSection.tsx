@@ -1,6 +1,6 @@
 const PricingSection = () => {
   return (
-    <section className="bg-foreground text-background">
+    <section className="bg-foreground text-background" id="pricing">
       <div className="flex flex-col items-center">
         <h2 className="mt-20 text-4xl font-bold tracking-tight mr-5">
           Pricing

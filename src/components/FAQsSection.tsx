@@ -8,7 +8,10 @@ import {
 
 const FAQsSection = () => {
   return (
-    <section className="flex flex-col items-center my-20 mb-25">
+    <section
+      className="flex flex-col items-center my-20 mb-25 scroll-mt-[70px]"
+      id="faqs"
+    >
       <h2 className="text-4xl font-bold tracking-tight mb-10">
         Frequently asked questions
       </h2>

@@ -11,7 +11,7 @@ const HeroSection = () => {
         <h1>Writing valuable and high-quality articles</h1>
         <h1>has never been this easy!</h1>
       </div>
-      <div className="text-[16px] tracking-tight mt-5 flex flex-col items-center">
+      <div className="text-[16px] tracking-tight mt-3 flex flex-col items-center">
         <p className={cn("", raleway.className)}>
           Never face the blank page alone again. Article Pal is your trusty AI
           sidekick, generating multiple high-quality
@@ -40,7 +40,7 @@ const HeroSection = () => {
         />
       </div>
       {/* Background Text */}
-      <div className="mt-10 text-7xl tracking-tight font-bold text-foreground/50">
+      <div className="my-16 text-7xl tracking-tight font-bold text-foreground/50">
         <h2>by writers, for writers</h2>
       </div>
     </section>

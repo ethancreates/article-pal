@@ -1,6 +1,7 @@
 import SignUpButton from "./SignUpButton";
 import { cn } from "@/lib/utils";
 import { raleway } from "@/components/Fonts";
+import Link from "next/link";
 
 const LargeNavbar = () => {
   return (
@@ -9,15 +10,24 @@ const LargeNavbar = () => {
         <li>
           {/* nav links */}
           <ul className={cn("flex space-x-3 ml-10", raleway.className)}>
-            <li>features</li>
-            <li>pricing</li>
-            <li>contact</li>
+            {navLinks.map((l) => {
+              return (
+                <li key={l.href}>
+                  <Link
+                    href={l.href}
+                    className="hover:border-b-2 border-background pb-1"
+                  >
+                    {l.title}
+                  </Link>
+                </li>
+              );
+            })}
           </ul>
         </li>
         <li>
           {/* logo */}
           <h1 className="text-4xl font-bold tracking-tight mr-10">
-            article pal.
+            <Link href="/">article pal.</Link>
           </h1>
         </li>
         <li className="mr-14">
@@ -29,3 +39,18 @@ const LargeNavbar = () => {
   );
 };
 export default LargeNavbar;
+
+const navLinks = [
+  {
+    title: "features",
+    href: "/#features",
+  },
+  {
+    title: "pricing",
+    href: "/#pricing",
+  },
+  {
+    title: "contact",
+    href: "/#contact",
+  },
+];
