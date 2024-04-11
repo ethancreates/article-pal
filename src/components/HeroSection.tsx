@@ -4,14 +4,24 @@ import { Button } from "./ui/button";
 import Image from "next/image";
 import APheaderImg from "../../public/articlepal-editor.png";
 import HeroAnimationProvider from "./HeroAnimationProvider";
+import { Badge } from "./ui/badge";
 
 const HeroSection = () => {
   return (
     <HeroAnimationProvider>
       <section
-        className="flex flex-col items-center mt-[150px] scroll-mt-[2000px]"
+        className="flex flex-col items-center mt-[120px] scroll-mt-[2000px]"
         id="home"
       >
+        <Badge
+          className={cn(
+            "bg-foreground/50 font-light mb-7 text-white",
+            raleway.className
+          )}
+        >
+          <div className="h-2 w-2 bg-lime-200 rounded-full mr-1 transition animate-pulse" />
+          <p>Work in progress</p>
+        </Badge>
         <div className="flex flex-col items-center text-5xl font-bold tracking-tight leading-tight">
           <h1>Writing valuable and high-quality articles</h1>
           <h1>has never been this easy!</h1>
