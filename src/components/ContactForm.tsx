@@ -31,8 +31,6 @@ const formSchema = z.object({
   }),
 });
 
-const onSubmit = () => {};
-
 export function ContactForm() {
   const form = useForm<z.infer<typeof formSchema>>({
     resolver: zodResolver(formSchema),
@@ -43,10 +41,7 @@ export function ContactForm() {
     },
   });
 
-  // 2. Define a submit handler.
   function onSubmit(values: z.infer<typeof formSchema>) {
-    // Do something with the form values.
-    // ✅ This will be type-safe and validated.
     console.log(values);
   }
   return (
@@ -55,7 +50,7 @@ export function ContactForm() {
         onSubmit={form.handleSubmit(onSubmit)}
         className={cn(
           "w-[600px] bg-background/60 py-14 text-foreground rounded-2xl mt-12 flex flex-col items-center",
-          raleway.className
+          raleway.className,
         )}
       >
         <FormField
@@ -111,7 +106,7 @@ export function ContactForm() {
         <Button
           className={cn(
             "bg-background/20 mt-10 w-[180px] h-[50px] text-lg border-foreground rounded-xl hover:scale-105 active:scale-90 transition hover:bg-foreground",
-            raleway.className
+            raleway.className,
           )}
           variant="outline"
           type="submit"
