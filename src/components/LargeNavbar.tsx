@@ -27,7 +27,7 @@ const LargeNavbar = () => {
         </li>
         <li>
           {/* logo */}
-          <h1 className="text-4xl font-bold tracking-tight mr-10">
+          <h1 className="text-4xl font-bold tracking-tight mr-16">
             <Link href="/#hero">article pal.</Link>
           </h1>
         </li>
@@ -43,9 +43,10 @@ export default LargeNavbar;
 
 const navLinks = [
   {
-    title: "features",
-    href: "/#features",
+    title: "humanizer",
+    href: "/humanizer",
   },
+
   {
     title: "pricing",
     href: "/#pricing",
