@@ -2,11 +2,10 @@ import SignUpButton from "./SignUpButton";
 import { cn } from "@/lib/utils";
 import { raleway } from "@/components/Fonts";
 import Link from "next/link";
-import HeroAnimationProvider from "./HeroAnimationProvider";
 
 const LargeNavbar = () => {
   return (
-    <nav className="text-background fixed mx-auto fixed left-0 right-0 top-0 z-10">
+    <nav className="text-background mx-auto fixed left-0 right-0 top-0 z-10">
       <ul className="bg-foreground w-[1000px] mx-auto py-4 mt-5 rounded-full flex items-center justify-between shadow-2xl border-background border-2">
         <li>
           {/* nav links */}
@@ -28,7 +27,7 @@ const LargeNavbar = () => {
         <li>
           {/* logo */}
           <h1 className="text-4xl font-bold tracking-tight mr-16">
-            <Link href="/#hero">article pal.</Link>
+            <Link href="/#home">article pal.</Link>
           </h1>
         </li>
         <li className="mr-14">
